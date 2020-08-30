@@ -9,7 +9,7 @@ EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 msg = EmailMessage()
 msg['Subject'] = 'date at 6 pm'
 msg['From'] = EMAIL_ADDRESS
-msg['To'] = 'abhijeetnagtode10@gmail.com'
+msg['To'] = ''              #just type reciver mail
 msg.set_content('lets have a coffee at evening')
 
 
